@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2 (Python 3.7.7 on darwin)" generated="20200429 20:47:11.529" rpa="false">
+<suite id="s1" name="Tests" source="/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/tests">
+<suite id="s1-s1" name="Cadastro" source="/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/tests/cadastro.robot">
+<test id="s1-s1-t1" name="Disponibilizar produto">
+<kw name="Login Session" library="BasePage" type="setup">
+<kw name="Open Session" library="BasePage">
+<kw name="Open Chrome" library="BasePage">
+<kw name="Open Browser">
+<arguments>
+<arg>${base_url}/login</arg>
+<arg>chrome</arg>
+<arg>options=add_experimental_option('excludeSwitches', ['enable-logging'])</arg>
+</arguments>
+<msg timestamp="20200429 20:47:11.601" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.601" endtime="20200429 20:47:11.601"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.597" endtime="20200429 20:47:11.601"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.597" endtime="20200429 20:47:11.601"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.596" endtime="20200429 20:47:11.602"></status>
+</kw>
+<kw name="Close Session" library="BasePage" type="teardown">
+<kw name="Capture Page Screenshot">
+<msg timestamp="20200429 20:47:11.605" level="FAIL">No keyword with name 'Capture Page Screenshot' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.604" endtime="20200429 20:47:11.605"></status>
+</kw>
+<kw name="Close Browser">
+<msg timestamp="20200429 20:47:11.607" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.607" endtime="20200429 20:47:11.607"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.602" endtime="20200429 20:47:11.607">Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.596" endtime="20200429 20:47:11.607" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="Produto duplicado">
+<kw name="Login Session" library="BasePage" type="setup">
+<kw name="Open Session" library="BasePage">
+<kw name="Open Chrome" library="BasePage">
+<kw name="Open Browser">
+<arguments>
+<arg>${base_url}/login</arg>
+<arg>chrome</arg>
+<arg>options=add_experimental_option('excludeSwitches', ['enable-logging'])</arg>
+</arguments>
+<msg timestamp="20200429 20:47:11.611" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.611" endtime="20200429 20:47:11.611"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.609" endtime="20200429 20:47:11.612"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.609" endtime="20200429 20:47:11.612"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.608" endtime="20200429 20:47:11.612"></status>
+</kw>
+<kw name="Close Session" library="BasePage" type="teardown">
+<kw name="Capture Page Screenshot">
+<msg timestamp="20200429 20:47:11.615" level="FAIL">No keyword with name 'Capture Page Screenshot' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.614" endtime="20200429 20:47:11.615"></status>
+</kw>
+<kw name="Close Browser">
+<msg timestamp="20200429 20:47:11.617" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.617" endtime="20200429 20:47:11.617"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.612" endtime="20200429 20:47:11.617">Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.608" endtime="20200429 20:47:11.617" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Cadastro de produtos
+Sendo um administrador de catálogo
+Quero cadastrar produtos
+Para que eu possa disponibiliza-los na loja virtual</doc>
+<status status="FAIL" starttime="20200429 20:47:11.563" endtime="20200429 20:47:11.618"></status>
+</suite>
+<suite id="s1-s2" name="Login" source="/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/tests/login.robot">
+<test id="s1-s2-t1" name="Login com sucesso">
+<kw name="Dado que eu acesso a página de login">
+<msg timestamp="20200429 20:47:11.627" level="FAIL">No keyword with name 'Dado que eu acesso a página de login' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.627" endtime="20200429 20:47:11.627"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200429 20:47:11.629" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.629" endtime="20200429 20:47:11.629">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.624" endtime="20200429 20:47:11.629" critical="yes">No keyword with name 'Dado que eu acesso a página de login' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s2-t2" name="Senha incorreta">
+<kw name="Tentativa de login">
+<arguments>
+<arg>papito@ninjapixel.com</arg>
+<arg>abc123</arg>
+<arg>Usuário e/ou senha inválidos</arg>
+</arguments>
+<kw name="Dado que eu acesso a página de login">
+<msg timestamp="20200429 20:47:11.633" level="FAIL">No keyword with name 'Dado que eu acesso a página de login' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.633" endtime="20200429 20:47:11.633"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.630" endtime="20200429 20:47:11.633"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200429 20:47:11.636" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.636" endtime="20200429 20:47:11.636">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.630" endtime="20200429 20:47:11.636" critical="yes">No keyword with name 'Dado que eu acesso a página de login' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s2-t3" name="Email não existe">
+<kw name="Tentativa de login">
+<arguments>
+<arg>404@yahoo</arg>
+<arg>abc123</arg>
+<arg>Usuário e/ou senha inválidos</arg>
+</arguments>
+<kw name="Dado que eu acesso a página de login">
+<msg timestamp="20200429 20:47:11.641" level="FAIL">No keyword with name 'Dado que eu acesso a página de login' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.641" endtime="20200429 20:47:11.641"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.638" endtime="20200429 20:47:11.641"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200429 20:47:11.643" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.643" endtime="20200429 20:47:11.643">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.636" endtime="20200429 20:47:11.643" critical="yes">No keyword with name 'Dado que eu acesso a página de login' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s2-t4" name="Email Obrigatório">
+<kw name="Tentativa de login">
+<arguments>
+<arg>${EMPTY}</arg>
+<arg>abc123</arg>
+<arg>Opps. Informe o seu email!</arg>
+</arguments>
+<kw name="Dado que eu acesso a página de login">
+<msg timestamp="20200429 20:47:11.647" level="FAIL">No keyword with name 'Dado que eu acesso a página de login' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.647" endtime="20200429 20:47:11.648"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.644" endtime="20200429 20:47:11.648"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200429 20:47:11.650" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.650" endtime="20200429 20:47:11.650">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.644" endtime="20200429 20:47:11.650" critical="yes">No keyword with name 'Dado que eu acesso a página de login' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s2-t5" name="Senha Obrigatória">
+<kw name="Tentativa de login">
+<arguments>
+<arg>papito@ninjapixel.com</arg>
+<arg>${EMPTY}</arg>
+<arg>Opps. Informe a sua senha!</arg>
+</arguments>
+<kw name="Dado que eu acesso a página de login">
+<msg timestamp="20200429 20:47:11.654" level="FAIL">No keyword with name 'Dado que eu acesso a página de login' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.654" endtime="20200429 20:47:11.654"></status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.651" endtime="20200429 20:47:11.654"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20200429 20:47:11.657" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20200429 20:47:11.657" endtime="20200429 20:47:11.657">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20200429 20:47:11.651" endtime="20200429 20:47:11.657" critical="yes">No keyword with name 'Dado que eu acesso a página de login' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Login
+Sendo um administrador de catálogo
+Quero me autenticar no sistema
+Para que eu possa gerenciar o catálogo de produtos</doc>
+<status status="FAIL" starttime="20200429 20:47:11.619" endtime="20200429 20:47:11.658"></status>
+</suite>
+<status status="FAIL" starttime="20200429 20:47:11.533" endtime="20200429 20:47:11.659"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7">Critical Tests</stat>
+<stat pass="0" fail="7">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="7" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="2" id="s1-s1" name="Cadastro">Tests.Cadastro</stat>
+<stat pass="0" fail="5" id="s1-s2" name="Login">Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200429 20:47:11.571" level="ERROR">Error in file '/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/resources/actions.robot' on line 4: Test library 'libs/db.py' does not exist.</msg>
+<msg timestamp="20200429 20:47:11.572" level="ERROR">Error in file '/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/resources/actions.robot' on line 5: Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.7/bin
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python37.zip
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload
+  /Users/lsantos/Library/Python/3.7/lib/python/site-packages
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages</msg>
+<msg timestamp="20200429 20:47:11.621" level="ERROR">Error in file '/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/resources/actions.robot' on line 4: Test library 'libs/db.py' does not exist.</msg>
+<msg timestamp="20200429 20:47:11.622" level="ERROR">Error in file '/Users/lsantos/Documents/luciane/QA NINJA -  Robot/ninjapixel/resources/actions.robot' on line 5: Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.7/bin
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python37.zip
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload
+  /Users/lsantos/Library/Python/3.7/lib/python/site-packages
+  /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages</msg>
+</errors>
+</robot>
